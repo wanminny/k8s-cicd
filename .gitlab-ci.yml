@@ -5,7 +5,7 @@ image: docker:20.10.16
 
 variables:
   DOCKER_TLS_CERTDIR: "/certs"
-  DOCKERHUB_USERNAME: "zerosuc"
+  DOCKERHUB_USERNAME: "wanminny"
 
 services:
   - docker:20.10.16-dind
