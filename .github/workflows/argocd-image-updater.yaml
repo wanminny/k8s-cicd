@@ -3,10 +3,10 @@ name: build-every-branch
 on:
   push:
     branches:
-      - '*'
+      - "*"
 
 env:
-  DOCKERHUB_USERNAME: lyzhang1999
+  DOCKERHUB_USERNAME: zerosuc
 
 jobs:
   docker:
